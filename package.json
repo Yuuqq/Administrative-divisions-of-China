@@ -52,7 +52,7 @@
     "sequelize-cursor-pagination": "^1.0.3",
     "sqlite3": "^4.2.0"
   },
-  "license": "MIT",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/modood/Administrative-divisions-of-China/issues"
   },
