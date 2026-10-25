@@ -140,7 +140,7 @@ describe('联动数据', () => {
         }
       }
     }
-    if (!ok) throw new Error(`数据：pca-code.json，${t[0].anem}${t[1].name}${t[2].name}找不到！`)
+    if (!ok) throw new Error(`数据：pca-code.json，${t[0].name}${t[1].name}${t[2].name}找不到！`)
   })
 
   it('“省份、城市、区县、乡镇” 四级联动数据', () => {
@@ -195,7 +195,7 @@ describe('联动数据', () => {
         }
       }
     }
-    if (!ok) throw new Error(`数据：pcas-code.json，${t[0].anem}${t[1].name}${t[2].name}${t[3].name} 找不到！`)
+    if (!ok) throw new Error(`数据：pcas-code.json，${t[0].name}${t[1].name}${t[2].name}${t[3].name} 找不到！`)
   })
 
   it('“某省、某市、某县、某镇” 不存在', () => {
