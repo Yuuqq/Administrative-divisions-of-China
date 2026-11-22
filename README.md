@@ -3,7 +3,7 @@
 [![code style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![npm](https://img.shields.io/npm/v/china-division.svg)](https://www.npmjs.com/package/china-division)
 [![downloads](https://img.shields.io/npm/dt/china-division.svg)](https://www.npmjs.com/package/china-division)
-[![license](https://img.shields.io/badge/license-WTFPL%20--%20Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/master/LICENSE)
+[![license](https://img.shields.io/badge/license-WTFPL%20--%20Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://raw.githubusercontent.com/Yuuqq/Administrative-divisions-of-China/master/LICENSE)
 
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
@@ -24,24 +24,24 @@
 
 | 文件列表                     | JSON | CSV |
 |:-----------------------------|:-----|:----|
-| 省级（省份、直辖市、自治区） | [provinces.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/provinces.json) | [provinces.csv](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/provinces.csv) |
-| 地级（城市）                 | [cities.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/cities.json) | [cities.csv](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/cities.csv) |
-| 县级（区县）                 | [areas.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/areas.json) | [areas.csv](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/areas.csv) |
-| 乡级（乡镇、街道）           | [streets.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/streets.json) | [streets.csv](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/streets.csv) |
-| 村级（村委会、居委会）       | [villages.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/villages.json) | [villages.csv](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/villages.csv) |
+| 省级（省份、直辖市、自治区） | [provinces.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/provinces.json) | [provinces.csv](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/provinces.csv) |
+| 地级（城市）                 | [cities.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/cities.json) | [cities.csv](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/cities.csv) |
+| 县级（区县）                 | [areas.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/areas.json) | [areas.csv](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/areas.csv) |
+| 乡级（乡镇、街道）           | [streets.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/streets.json) | [streets.csv](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/streets.csv) |
+| 村级（村委会、居委会）       | [villages.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/villages.json) | [villages.csv](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/villages.csv) |
 
 | 文件列表                                    | 普通 | 带编码 |
 |:--------------------------------------------|:-----|:-------|
-| “省份、城市” 二级联动数据                   | [pc.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pc.json) | [pc-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pc-code.json) |
-| “省份、城市、区县” 三级联动数据             | [pca.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pca.json) | [pca-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pca-code.json) |
-| “省份、城市、区县、乡镇” 四级联动数据       | [pcas.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas.json) | [pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json) |
+| “省份、城市” 二级联动数据                   | [pc.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pc.json) | [pc-code.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pc-code.json) |
+| “省份、城市、区县” 三级联动数据             | [pca.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pca.json) | [pca-code.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pca-code.json) |
+| “省份、城市、区县、乡镇” 四级联动数据       | [pcas.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pcas.json) | [pcas-code.json](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/pcas-code.json) |
 | “省份、城市、区县、乡镇、村庄” 五级联动数据 | - | - |
 
-> 提示：需要打包下载全部文件，请看 [Releases](https://github.com/modood/Administrative-divisions-of-China/releases)。
+> 提示：需要打包下载全部文件，请看 [Releases](https://github.com/Yuuqq/Administrative-divisions-of-China/releases)。
 
 ## 数据库支持
 
-目前本项目数据保存在 sqlite3，数据文件下载：[data.sqlite](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/data.sqlite)。
+目前本项目数据保存在 sqlite3，数据文件下载：[data.sqlite](https://github.com/Yuuqq/Administrative-divisions-of-China/blob/master/dist/data.sqlite)。
 
 可以自己将数据迁移到其他数据库管理系统中（MySQL, Oracle, MSSQL 等）。
 
@@ -89,4 +89,3 @@
 | 140121102001 | 东于社区居委会 | 140121102  | 140121   | 1401     | 14           |
 | 152527201206 | 敦达乌苏嘎查   | 152527201  | 152527   | 1525     | 15           |
 | 450305004006 | 横塘社区       | 450305004  | 450305   | 4503     | 45           |
-
