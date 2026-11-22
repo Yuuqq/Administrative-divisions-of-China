@@ -13,6 +13,8 @@ describe('lazy package exports', () => {
       assert.deepStrictEqual(Object.keys(require.cache).filter(p => p.endsWith('.json')), [require.resolve('./dist/pca.json')])
       data.pc = null
       assert.strictEqual(data.pc, null)
+      Object.freeze(data)
+      assert.strictEqual(data.provinces.length, 31)
     `], { cwd: require('path').resolve(__dirname, '..') })
   })
 
